@@ -1,0 +1,2 @@
+site: "bookdown::bookdown_site"
+rmd_files: ["index.rmd", "parts/01-intro.md", "parts/02-factorial.md", "parts/03-e.md", "parts/04-conclusion.md"]

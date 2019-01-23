@@ -1,0 +1,17 @@
+---
+title: "Document title"
+subtitle: "Document subtitle"
+author: "Rand Asswad"
+date: "`r format(Sys.time(), '%d/%m/%Y')`"
+bibliography: ["ref.bib"]
+biblio-style: apalike
+link-citations: yes
+lang: en-US
+---
+```{r global_options, include=FALSE}
+knitr::opts_chunk$set(fig.pos = 'H')
+knitr::opts_knit$set(root.dir = './')
+```
+```{r child='include/abbrev.tex'}
+```
+\pagebreak
